@@ -1,0 +1,15 @@
+# HTID:12952361: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:12952361:
+
+RewriteEngine On
+RewriteRule ^ajax/ ajaxFetch.php [QSA,L]
+RewriteRule ^appslib app.php [QSA,L]
+RewriteRule ^login index.php [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ home.php [QSA,L]
+
+php_flag register_globals 0
+<Files ".ht*">
+  deny from all
+</Files>

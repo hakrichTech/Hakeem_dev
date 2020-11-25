@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<routes>
+  <route url="/" module="HakrichappIndex" action="index" vars="" id="" value=""/>
+  <route url="/privacy" module="Team" action="Privacy" vars="" id="" value=""/>
+  <route url="/privacy/" module="Team" action="Privacy" vars="" id="" value=""/>
+  <route url="/contact_us/" module="Team" action="Contact" vars="" id="" value=""/>
+  <route url="/contact_us" module="Team" action="Contact" vars="" id="" value=""/>
+  <route url="/about/" module="Team" action="About" vars="" id="" value=""/>
+  <route url="/about" module="Team" action="About" vars="" id="" value=""/>
+
+  <route url="/articles/(.+)" module="Article" action="Articles" vars="" id="" value=""/>
+  <route url="/articles" module="Article" action="Articles" vars="" id="" value=""/>
+
+  <route url="/softwares/(.+)" module="Softwares" action="Application" vars="" id="" value=""/>
+  <route url="/softwares" module="Softwares" action="Application" vars="" id="" value=""/>
+  <route url="/softwares/new" module="Softwares" action="Application_NEW" vars="" id="" value=""/>
+  <route url="/softwares/new/" module="Softwares" action="Application_NEW" vars="" id="" value=""/>
+  <route url="/download/(.+)" module="Download" action="Procedure" vars="" id="" value=""/>
+
+
+  <route url="/searching?(.+)" module="Search" action="SearchMobile" vars="" id="" value=""/>
+
+
+  <route url="/android_Apk/f5fce1d3a0929197f8bbf9423ee507657420c4c0" module="Android" action="Apk" vars="" id="" value=""/>
+  <route url="/android_Apk/e4bbe5b7a4c1eb55652965aee885dd59bd2ee7f4" module="Android" action="Apk_rid" vars="" id="" value=""/>
+  <route url="/login/" module="Login" action="LogIn" vars="" id="" value=""/>
+  <route url="/login" module="Login" action="LogIn" vars="" id="" value=""/>
+  <route url="/logout" module="LogIn" action="LogOut" vars="" id="" value=""/>
+  <route url="/signup/" module="Login" action="Signup" vars="" id="" value=""/>
+  <route url="/verif/" module="Login" action="Verification" vars="" id="" value=""/>
+  <route url="/verif2/" module="Login" action="Verification2" vars="" id="" value=""/>
+  <route url="/verif2" module="Login" action="Verification2" vars="" id="" value=""/>
+  <route url="/verif" module="Login" action="Verification" vars="" id="" value=""/>
+  <route url="/signup" module="Login" action="Signup" vars="" id="" value=""/>
+
+  <route url="/home" module="Home" action="Home" vars="" id="" value=""/>
+  <route url="/account/(.+)" module="Profile" action="Profile" vars="" id="" value=""/>
+</routes>

@@ -1,0 +1,8 @@
+{
+    "require": {
+        "hakrich-tech/plugins_sdk": "^v1.1.4",
+        "symfony/dotenv": "^5.1",
+        "hakrich-tech/database_managers_space": "^1.1",
+        "hakrich-tech/object-add-on": "^1.0"
+    }
+}

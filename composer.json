@@ -3,11 +3,6 @@
     "description": "The Laravel Framework.",
     "keywords": ["framework", "Hakeem", "hakrich", "develop", "dev"],
     "license": "MIT",
-    "homepage": "",
-    "support": {
-      "issues": "",
-      "source": "https://github.com/hakrichTech/Hakeem"
-    },
     "authors": [
       {
           "name": "Hakeem Rasheed",

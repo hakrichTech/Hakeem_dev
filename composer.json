@@ -1,6 +1,26 @@
 {
+    "name": "hakrich-tech/hakeem",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "Hakeem", "hakrich", "develop", "dev"],
+    "license": "MIT",
+    "homepage": "",
+    "support": {
+      "issues": "",
+      "source": "https://github.com/hakrichTech/Hakeem"
+    },
+    "authors": [
+      {
+          "name": "Hakeem Rasheed",
+          "email": "hakeemshamavu@hakrichapp.tech"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "App\\": "App/"
+      }
+    },
     "require": {
-        "hakrich-tech/plugins_sdk": "^v1.1.4",
+        "hakrich-tech/plugins_sdk": "^v1.1.5",
         "symfony/dotenv": "^5.1",
         "hakrich-tech/database_managers_space": "^1.1",
         "hakrich-tech/object-add-on": "^1.0"

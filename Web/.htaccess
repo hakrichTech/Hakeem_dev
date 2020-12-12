@@ -5,7 +5,7 @@ php_value display_errors 1
 RewriteEngine On
 RewriteRule ^ajax/ ajaxFetch.php [QSA,L]
 RewriteRule ^appslib app.php [QSA,L]
-RewriteRule ^login index.php [QSA,L]
+RewriteRule ^account index.php [QSA,L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ home.php [QSA,L]
 

@@ -1,7 +1,6 @@
 <?php
 require_once __DIR__.'/../vendor/autoload.php';
 
-
 use Symfony\Component\Dotenv\Dotenv;
 use \DatabaseManagers_space\DatabaseManagers;
 use \Library\Setup;
@@ -20,9 +19,6 @@ if ($load && $load2) {
   $dataManager = new DatabaseManagers($_ENV['APP_PATH_MANAGERS'],$_ENV['APP_PATH_MODELS'],$_ENV['APP_PATH_ENTITY']);
   $databaseManager = $dataManager::RUN();
   if ($dataManager !== 0) {
-    if ($_ENV['APP_CONFIG_SIDE'] !== "User") {
-      $_ENV['APP_CONFIG_SIDE'] = "User";
-    }
     $app = new Setup($_ENV['APP_CONFIG_SIDE'],$dataManager);
     $app::RUN();
   }else {
@@ -34,4 +30,5 @@ if ($load && $load2) {
 }
 
 
- ?>
+
+?>

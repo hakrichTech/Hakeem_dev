@@ -15,9 +15,10 @@
       }
     },
     "require": {
-        "hakrich-tech/plugins_sdk": "^v1.1.5",
+        "hakrich-tech/plugins_sdk": "^v1.1.9",
         "symfony/dotenv": "^5.1",
-        "hakrich-tech/database_managers_space": "^1.1",
-        "hakrich-tech/object-add-on": "^1.0"
+        "hakrich-tech/database_managers_space": "^1.4",
+        "hakrich-tech/object-add-on": "^1.6",
+        "facebook/graph-sdk": "^5.7"
     }
 }

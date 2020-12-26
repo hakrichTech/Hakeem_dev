@@ -7,6 +7,7 @@ use \DatabaseManagers_space\DatabaseManagers;
 use \Library\Setup;
 use \HTML\html;
 use \TraitAddOn\TraitManager;
+use \Config\AppConfig;
 
 $dotenv = new Dotenv();
 $dotenv->load(__DIR__.'/../.env');
@@ -23,6 +24,8 @@ if ($load && $load2) {
     if ($_ENV['APP_CONFIG_SIDE'] !== "User") {
       $_ENV['APP_CONFIG_SIDE'] = "User";
     }
+    $conf = new AppConfig();
+    $conf::RUN();
     $app = new Setup($_ENV['APP_CONFIG_SIDE'],$dataManager);
     $app::RUN();
   }else {

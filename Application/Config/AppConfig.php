@@ -48,11 +48,11 @@ final class AppConfig extends \Library\Config\AppConfig
        /**
        * with this syntax i will create a tutor
        */
-       'path'=>"\"http://example.com/en/Who-we-are\",",
-       'module'=>"\"IndexHakeem\",",
-       'action'=>"\"who\",",
-       'var'=>"\"none\",",
-       'value'=>"\"none\""
+       // 'path'=>"\"http://example.com/en/Who-we-are\",",
+       // 'module'=>"\"IndexHakeem\",",
+       // 'action'=>"\"who\",",
+       // 'var'=>"\"none\",",
+       // 'value'=>"\"none\""
        ]
    ));
  }
